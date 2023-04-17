@@ -1,5 +1,7 @@
 JSON 타입 편하게 가져오는 방법
 console => save global object => Object.keys(temp1) => Object.keys(temp1).join()
+Object.values(temp1) => Object.values(temp1).map(v => typeof v).join()
 
 유용한 VSC 단축키
 command + D : 반복된 모든것을 추가적으로 계속적으로 선택하게 해준다.
+shift + option + i : 범위한거에 줄별로 커서를 만들어 준다.
